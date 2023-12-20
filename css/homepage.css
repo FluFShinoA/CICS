@@ -1,0 +1,535 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(../css/keyframes.css);
+
+@font-face {
+    font-family: 'ShelleyAllegro';
+    src: url('../fonts/ShelleyAllegro/Shelley-AllegroScript\ Wd.woff2') format('woff2'),
+        url('../fonts/ShelleyAllegro/Shelley-AllegroScript\ Wd.woff') format('woff'),
+        url('../fonts/ShelleyAllegro/Shelley-AllegroScript\ Wd.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Azonix';
+    src: url('../fonts/Azonix/Azonix.woff2') format('woff2'),
+        url('../fonts/Azonix/Azonix.woff') format('woff'),
+        url('../fonts/Azonix/Azonix.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Wireframe';
+    src: url('../fonts/TheWireframe/wireframe.woff2') format('woff2'),
+        url('../fonts/TheWireframe/wireframe.woff') format('woff'),
+        url('../fonts/TheWireframe/wireframe.otf') format('opentype');
+}
+
+:root{
+    /*~~~~~~FONT COLORS~~~~~~*/
+    --1st-color: #0066FF; 
+    --2nd-color: #303030; 
+    --3rd-color: #4D4D4D; 
+    --4th-color: #737373; 
+    --5th-color: #F7F7FF;
+    --dark-color: #202020;
+    --black: #000000;
+
+
+    /*~~~~~~FONT SIZES~~~~~~*/
+    --2x-small: 0.4rem;   /* 5px / 16px */
+    --x-small: 0.75rem;      /* 12px / 16px */
+    --small: 0.875rem;       /* 14px / 16px */
+    --normal: 1rem;          /* 16px / 16px */
+    --large: 1.125rem;       /* 18px / 16px */
+    --x-large: 1.25rem;       /* 20px / 16px */
+    --2x-large: 1.5rem;       /* 24px / 16px */
+    --3x-large: 1.875rem;     /* 30px / 16px */
+    --4x-large: 2.25rem;      /* 36px / 16px */
+    --5x-large: 3rem;         /* 48px / 16px */
+    --6x-large: 3.75rem;      /* 60px / 16px */
+    --7x-large: 4.5rem;       /* 72px / 16px */
+    --8x-large: 6rem;         /* 96px / 16px */
+    --9x-large: 8rem;         /* 128px / 16px */
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+/* START OF CICS FRONT CONTENT */
+.cics-front-content{
+    height: 85vh;
+    background-image: url(../img/pin2.png);
+    background-size: 100% 100%;
+}
+.cics-front-content .row{
+    position: relative;
+    height: 85vh;
+    background: rgb(89,89,89);
+    background: linear-gradient(180deg, rgba(89,89,89,0) 63%, rgba(0,0,0,1) 100%);
+}
+.cics-front-content .NEU-campus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cics-front-content .NEU-campus img{
+    width: 85%;
+    margin-right: 50px;
+    border-radius: 80px 0 ;
+    box-shadow:  -10px -10px 14px #020812,
+                10px 10px 14px #020812;
+}
+.cics-front-content .quote{
+    display: block;
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+.cics-front-content .quote p{
+    font-size: var(--3x-large);
+    color: var(--5th-color);
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    text-align: right;
+    opacity: 1;
+    text-shadow: 5px 5px #000;
+    font-family: 'Azonix';
+}
+.cics-front-content .quote span{
+    font-size: var(--5x-large);
+    letter-spacing: 10px;
+    font-family: 'Wireframe';
+}
+
+.cics-front-content .quote .buttons{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.redirect-btn {
+    font-size: var(--normal) !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    margin: 0 10px !important;
+    border: 1px solid var(--5th-color);
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: var(--5th-color);
+    background: #0208125d;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+.redirect-btn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #0066ffa8;
+    z-index: -1;
+}
+
+.redirect-btn:hover, .redirect-btn:focus {
+    color: white;
+    border: 1px solid #1e40af;
+}
+
+.redirect-btn:hover:before, .redirect-btn:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.redirect-btn:active {
+    transform: scale(0.9);
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-container a {
+    display: flex;
+    color: #fff;
+    font-size: var(--normal);
+    margin-left: -24px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.scroll-container a:hover {
+    opacity: 0.5;
+}
+.scroll-container a span {
+    position: relative;
+    top: -80px;
+    left: 78px;
+    width: 24px;
+    height: 24px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+/* END OF CICS FRONT CONTENT */
+
+
+/* START OF THE MAIN CONTENT */
+#main-content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text within the container */
+}
+#main-content h3{
+    font-size: var(--4x-large);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.main-carousel-inside{
+    margin: 20px 0 60px;
+    width: 60%;
+    height: 71%;
+}
+.main-carousel-inner {
+    height: 100%;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  5px 5px 17px #666666,
+                -5px -5px 17px #ffffff;
+}
+.main-carousel-inner .carousel-item img {
+    border-radius: 10px;
+    transition: 0.25s linear;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 2px;
+    position: relative;
+    top: 30px;
+}
+.carousel-indicators li.active {
+    background: #fff;
+}
+.carousel-control-prev {
+    left: -50px;
+    border-radius: 10px 0 0 10px;
+    background: rgb(0,0,0) !important;
+    background: linear-gradient(90deg, rgba(0,0,0,0.7792366946778712) 0%, rgba(98,101,101,0.0845588235294118) 100%) !important;
+}
+.carousel-control-next {
+    right: -50px;
+    border-radius: 0 10px 10px 0;
+    background: rgb(0,0,0) !important;
+    background: linear-gradient(270deg, rgba(0,0,0,0.7792366946778712) 0%, rgba(98,101,101,0.0845588235294118) 100%) !important;
+}
+/* END OF THE MAIN CONTENT */
+
+
+/* START OF ANNOUNCEMENTS */
+#announcements{
+    height: 85vh;
+    width: 100%;
+    background-image: url(../img/cics-bg-7.jpg);
+    background-size: 100% 100%;
+}
+#announcements .announcements-cover{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#announcement-title{
+    padding-top: 20px;
+    color: white;
+    font-size: var(--4x-large);
+    text-shadow: 3px 3px #000;
+    letter-spacing: 0.06em;
+}
+#announcements-carousel{
+    width: 80%;
+    padding-bottom: 50px;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+
+
+.card {
+    width: min(100%, 500px);
+    background: rgba(255, 255, 255);
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    z-index: 5;
+}
+
+.card > img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 5px 5px 0 0;
+    filter: contrast(70%);
+    transition: all 0.6s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.card > img:hover {
+    filter: contrast(100%);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px;
+}
+
+.card-content > p {
+    margin-bottom: 10px;
+}
+
+.card-content > p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1e40af;
+}
+
+.card-content > p:nth-child(2) {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+
+#prev-btn,
+#next-btn {
+    background-color: #3b3b3b;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 -30px;
+}
+#carousel-prev-2,
+#carousel-next-2 {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+/* END OF ANNOUNCEMENTS */
+
+/* START OF UPCOMING EVENTS */
+#upcoming{
+    padding: 30px 0;
+}
+#upcoming a{
+    text-decoration: none;
+    color: var(--2nd-color);
+}
+.upcoming-wrapper .row{
+    height: 85vh;
+}
+.event-cont .upcoming-title{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    height: 100% !important;
+    justify-content: right;
+    text-align: right;
+    font-weight: bold;
+}
+.upcoming-title .bx{
+    font-size: var(--6x-large);
+    color: #0066FF;
+    text-shadow: 1px 1px #000;
+    margin-right: 30px;
+}
+
+
+.event-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event{
+    display: flex;
+    border-left: solid 10px #0066FF;
+    margin: 20px 0;
+    width: 100%;
+}
+.event .date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    font-size: var(--x-large);
+}
+.event .date .day{
+    font-size: var(--4x-large);
+    padding: 0; margin: 0;
+    font-weight: bold;
+}
+
+.event-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 85%;
+}
+.event a.event-title{
+    font-size: var(--large);
+    font-weight: 600;
+}
+.event a.event-title:hover{
+    color: var(--1st-color) !important;
+}
+.event-location{
+    text-align: left;
+}
+/* END OF UPCOMING EVENTS */
+
+
+
+
+@media screen and (min-width: 767px) {
+    .cards-wrapper {
+        display: flex;
+    }
+    .card {
+        margin: 0 0.5em;
+        width: calc(100% / 2);
+    }
+    .image-wrapper {
+        height: 14vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+/* START OF CICS CONTENT */
+    .cics-front-content{
+        height: 80vh;
+        background-image: url(../img/pin2.png);
+        background-size: 150% 100%;
+    }
+    .cics-front-content .row{
+        height: 80vh;
+    }
+    .cics-front-content .NEU-campus img{
+        width: 80%;
+        border-radius: 20px 0;
+        margin: 30px 0 0 0;
+    }
+    .cics-front-content .quote{
+        height: 30vh;
+        display: grid;
+        place-items: center;
+        padding: 0;
+    }
+    .cics-front-content .quote p{
+        margin: 0 0 20px 0;
+        line-height: 50px;
+        text-align: center  ;
+        font-size: var(--small);
+    }
+    .cics-front-content .quote span{
+        font-size: var(--normal);
+    }
+    .cics-front-content .quote .buttons{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .redirect-btn{
+        font-size: var(--x-small) !important;
+    }
+/* END OF CICS CONTENT */
+
+
+/* START OF MAIN CAROUSEL */
+    #main-content{
+        height: 50vh;
+    }
+    .main-carousel-inside{
+        height: 30%;
+        width: 80%;
+    }
+/* END OF MAIN CAROUSEL */
+
+/* START OF LATEST */
+    #announcement-title{
+        font-size: var(--x-large);
+    }
+
+    .card-body .card-title{
+        font-size: var(--small) !important;
+        font-weight: bold;
+    }
+    .card-body .card-text{
+        font-size: var(--x-small);
+    }
+
+    .card:not(:first-child) {
+        display: none;
+    }
+/* END OF LATEST */
+
+/* START OF UPCOMING EVENTS */
+    .event-cont .upcoming-title{
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .event .date{
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .event .date .month{
+        font-size: var(--normal);
+    }
+    .event .date .day{
+        font-size: var(--3x-large);
+    }
+    .event-description{
+        width: 75%;
+    }
+    .event span.event-title{
+        font-size: var(--normal);
+    }
+    .event-location{
+        font-size: var(--small);
+    }
+/* END OF UPCOMING EVENTS */
+}

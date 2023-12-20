@@ -1,0 +1,105 @@
+
+body{
+    background-image: url(../img/cics-bg-7.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main .container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pills-container{
+    width: 100%;
+    position: relative;
+}
+.nav-pills{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    background: rgba( 16, 50, 117, 0.15 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow:  5px 5px 13px #040c1d,
+                -5px -5px 13px #103275;
+    margin-right: 30px;
+    width: 150px;
+    
+}
+
+.nav-item a{
+    color: var(--5th-color);
+}
+
+.nav-item a:hover{
+    background-color: var(--1st-color);
+    color: var(--5th-color);
+}
+
+.tab-content{
+    width: 70vw;
+    height: 55vh;
+    background: rgba( 16, 50, 117, 0.15 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px 50px;
+
+    box-shadow:  5px 5px 13px #040c1d,
+                -5px -5px 13px #103275;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-pane{
+    text-align: justify !important;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #000;
+    font-size: var(--3x-large);
+    color: var(--5th-color);
+}
+
+#Goals{
+    font-size: var(--normal);
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 768px){
+    main .container{
+        height: 100vh;
+    }
+    .nav-pills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 24px;
+    }
+    .nav-pills .nav-item{
+        margin-bottom: 20px;
+    }
+    .tab-content{
+        padding: 10px 20px;
+    }
+    .tab-pane{
+        font-size: var(--x-small);
+        line-height: 25px;
+        text-align: center !important;
+    }
+    #Goals{
+        font-size: var(--x-small);
+        line-height: 15px;
+        text-align: justify;
+    }
+}
