@@ -12,26 +12,36 @@ About Us:
 College overview: Detailed information about the college, its history, and its goals.
 Mission and vision: Clearly defined mission and vision statements.
 Leadership: Profiles of faculty and administrative staff.
+
 Academic Programs:
 
 Degree offerings: Detailed information on undergraduate and graduate programs.
 Course catalog: A searchable database of courses, descriptions, and prerequisites.
 Academic calendar: Important dates, deadlines, and events.
+
 Admissions:
 
 Admission requirements: Information for prospective students, including application procedures.
 Scholarships and financial aid: Details on available scholarships and funding opportunities.
 Application forms: Downloadable forms and links to online application platforms.
+
 Faculty and Research:
 
 Faculty directory: Profiles of faculty members, including their expertise and research interests.
 Research centers: Information about research labs, groups, and ongoing projects.
 Publications: Access to research papers, journals, and publications.
-Student Resources:
 
-Student portal: Access to grades, schedules, and academic records.
+
+ENGAGEMENT:
+
 Career services: Job placement, internship opportunities, and career resources.
+
 Student organizations: Information about clubs, societies, and student activities.
+
+
+
+
+
 Knowledge Management System (Chatbot):
 
 Integration with a chatbot for knowledge sharing and support.

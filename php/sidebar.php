@@ -34,10 +34,10 @@
                 <ul class="sub-menu">
                     <li><a class="link_name" href="programs.php">Programs</a></li>
                     <li><a href="bsit.php">BSIT</a></li>
-                    <li><a href="#">BSCS</a></li>
-                    <li><a href="#">BSIS</a></li>
-                    <li><a href="#">BLIS</a></li>
-                    <li><a href="#">BSEMC</a></li>
+                    <li><a href="bscs.php">BSCS</a></li>
+                    <li><a href="bsis.php">BSIS</a></li>
+                    <li><a href="bsemc.php">BSEMC</a></li>
+                    <li><a href="blis.php">BLIS</a></li>
                 </ul>
             </li>
             <li>

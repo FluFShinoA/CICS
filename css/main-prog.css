@@ -1,0 +1,547 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('../fonts/Azonix/Azonix.woff2') format('woff2'),
+        url('../fonts/Azonix/Azonix.woff') format('woff'),
+        url('../fonts/Azonix/Azonix.otf') format('opentype');
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+#back-to-top-btn {
+    display: inline-block;
+    background-color: var(--1st-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+                opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-decoration: none;
+
+}
+#back-to-top-btn::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+#back-to-top-btn:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#back-to-top-btn:active {
+    background-color: #555;
+}
+#back-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* START OF PROGRAM BANNER */
+.program-title{
+    width: 50%;
+    height: 85vh;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    align-items: center;
+    color: var(--5th-color);
+    text-align: right;
+}
+.program-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-right: 100px;
+}
+.program-text strong{
+    font-size: var(--8x-large);
+    font-family: 'Azonix';
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #000;
+}
+.program-text p{
+    font-size: var(--2x-large);
+}
+/* END OF PROGRAM BANNER */
+
+
+/* START OF SCROLLSPY NAVBAR */
+nav{
+    margin-top: -1px;
+    padding: 0;
+    z-index: 2;
+    background-color: #05295D;
+}
+
+.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 60px;
+    width: calc(100% - 60px);
+}
+.nav-link{
+    margin: 0 50px;
+    color: var(--5th-color) !important;
+}
+.nav-link.active{
+    color: var(--5th-color) !important;
+    text-decoration: underline;
+}
+/* END OF SCROLLSPY NAVBAR */
+
+/* START OF PROGRAM INFORMATION */
+.program-info, .program-po, .core-courses, .careers, .testimonials{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0 0;
+    text-align: justify;
+}
+
+.core-courses{
+    padding: 80px 0 0;
+}
+.program-info h3{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+
+/* START OF PROGRAM PO */
+.program-po h3{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.olcards,
+.olcards * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.olcards {
+    list-style: none;
+    counter-reset: cardCount;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    --cardsGap: 1rem;
+    gap: var(--cardsGap);
+    padding-bottom: var(--cardsGap);
+}
+.olcards li {
+    counter-increment: cardCount;
+    display: flex;
+    color: white;
+    --labelOffset: 1rem;
+    --arrowClipSize: 1.5rem;
+    margin-top: var(--labelOffset);
+    padding: 0 30px;
+}
+
+.olcards li::before {
+    content: counter(cardCount, decimal-leading-zero);
+    background: white;
+    color: var(--cardColor);
+    font-size: var(--3x-large);
+    font-weight: 700;
+    width: 50px;
+    transform: translateY(calc(-1 * var(--labelOffset)));
+    margin-right: calc(-1 * var(--labelOffset));
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 0.5em;
+}
+
+.olcards li .content {
+    width: 100%;
+    background-color: var(--cardColor);
+    --inlinePadding: 1em;
+    --boxPadding: 0.5em;
+    display: grid;
+    padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
+        var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset));
+    grid-template-areas:
+        "icon title"
+        "icon text";
+    gap: 0.25em 1em;
+    clip-path: polygon(
+        0 0,
+        calc(100% - var(--arrowClipSize)) 0,
+        100% 50%,
+        calc(100% - var(--arrowClipSize)) 100%,
+        calc(100% - var(--arrowClipSize)) calc(100% + var(--cardsGap)),
+        0 calc(100% + var(--cardsGap))
+    );
+    position: relative;
+    justify-content: left;
+}
+.olcards li .content::before {
+    content: "";
+    position: absolute;
+    width: var(--labelOffset);
+    height: var(--labelOffset);
+    background: var(--cardColor);
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    filter: brightness(0.75);
+}
+.olcards li .content::after {
+    content: "";
+    position: absolute;
+    height: var(--cardsGap);
+    width: var(--cardsGap);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent 50%);
+    left: 0;
+    top: 100%;
+}
+.olcards li .content .title {
+    grid-area: title;
+    font-size: var(--small);
+    text-shadow: 2px 2px #000;
+    font-weight: bold;
+}
+.olcards li .content .text {
+    grid-area: text;
+    font-size: var(--x-small);
+    text-shadow: 1px 1px #000;
+    text-align: justify;
+}
+/* END OF PROGRAM PO */
+
+/* START OF CORE COURSES */
+.core-courses h3{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.course-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-width: 500px;
+}
+
+.panel {
+    position: relative;
+    border: 1px solid #00000024;
+    border-radius: 20px;
+    background: var(--5th-color);
+    height: 48px;
+    margin: 10px;
+    box-shadow: -5px -5px 15px rgb(255, 255, 255),
+                5px 5px 15px rgba(0, 0, 0, 0.104);
+    cursor: pointer;
+    transition: flex 0.5s linear;
+    overflow: hidden;
+}
+
+.panel.active {
+    flex-grow: 5;
+    border: 1px solid var(--1st-color);
+}
+
+.course-title {
+    display: flex;
+    margin: 12px 20px;
+}
+
+.course-title strong {
+    margin: 0 10px;
+    font-size: calc(40vw / 3750 * 100);
+    font-weight: bold;
+}
+
+.panel.active .course-title {
+    color: var(--1st-color);
+}
+
+.course-content {
+    opacity: 0;
+    margin: 16px 20px;
+    line-height: 28px;
+    transition: opacity 0.2s ease-in;
+    font-size: calc(40vw / 4250 * 100);
+}
+
+.panel.active .course-content {
+    opacity: 1;
+    transition: opacity 0.2s ease-in 0.3s;
+}
+/* END OF CORE COURSES */
+
+/* START OF CAREER OCCUPATIONS */
+.careers h3{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.careers .row{
+    padding: 0 30px;
+}
+.careers strong{
+    font-size: var(--large);
+}
+.careers ul li{
+    margin: 15px 0;
+}
+/* END OF CAREER OCCUPATIONS */
+
+/* START OF ALUMNI TESTIMONIALS */
+.testimonials{
+    padding-bottom: 50px;
+}
+
+.testimonials h3{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.bsit-testimonials {
+    position: relative;
+}
+.bsit-testimonials h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+.bsit-testimonials .owl-stage-outer {
+    padding: 30px 0;
+}
+.bsit-testimonials .owl-nav {
+    display: none;
+}
+.bsit-testimonials .owl-dots {
+    text-align: center;
+}
+.bsit-testimonials .owl-dots span {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    background: #fff;
+    border: 2px solid #01b0f8;
+    margin: 0 5px;
+}
+.bsit-testimonials .owl-dots .active {
+    box-shadow: none;
+}
+.bsit-testimonials .owl-dots .active span {
+    background: #01b0f8;
+    box-shadow: none;
+    height: 12px;
+    width: 12px;
+    margin-bottom: -1px;
+}
+.bsit-testimonials .card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0;
+}
+.bsit-testimonials .card .card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    box-shadow: 0 8px 20px -4px #95abbb;
+    width: 100px;
+    height: 100px;
+}
+.bsit-testimonials .card h5 {
+    color: #01b0f8;
+    font-size: 21px;
+    line-height: 1.3;
+}
+.bsit-testimonials .card span {
+    font-size: var(--small);
+    color: #666;
+}
+.bsit-testimonials .card p {
+    font-size: var(--small);
+    color: var(--2nd-color);
+    padding-bottom: 15px;
+}
+.bsit-testimonials .active {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.bsit-testimonials .center {
+    opacity: 1;
+}
+.bsit-testimonials .center h5 {
+    font-size: 24px;
+}
+.bsit-testimonials .center span {
+    font-size: var(--normal);
+    color: #000;
+}
+.bsit-testimonials .center .card-img-top {
+    max-width: 100%;
+    height: 120px;
+    width: 120px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    outline: 0;
+}
+.owl-carousel button.owl-dot {
+    outline: 0;
+}
+/* END OF ALUMNI TESTIMONIALS */
+
+.splitter-1, .splitter-2{
+    width: 80% ;
+    margin: auto;
+}
+.splitter-1{
+    border-bottom: 1px solid var(--1st-color);
+    border-radius: 50px;
+}
+.splitter-2{
+    border-top: 1px solid var(--1st-color);
+    border-radius: 50px;
+}
+
+.enroll-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 50px;
+}
+
+.enroll-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgb(0,102,255);
+    background: radial-gradient(circle, rgba(0,102,255,1) 56%, rgba(0,56,140,1) 90%);
+    color: var(--5th-color);
+    font-weight: 600;
+    text-shadow: 1px 1px #000;
+    box-shadow:  3px 3px 5px #3c3c3c,
+                -3px -3px 5px #ffffff;
+    transition: all 0.75s;
+
+}
+.enroll-btn:hover{
+    border: 1px solid var(--1st-color);
+    color: var(--1st-color);
+    background: var(--5th-color) ;
+    transition: all 0.75s;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+/* START OF RESPONSIVE DESIGN */
+@media (max-width: 991px) {
+    /* START OF PROGRAM BANNER */
+    .program-title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .program-text{
+        padding: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .program-text strong{
+        font-size: var(--7x-large);
+    }
+    .program-text p{
+        font-size: var(--normal);
+    }
+    .program-text i{
+        font-size: var(--small);
+    }
+    /* END OF PROGRAM BANNER */
+
+
+    /* START OF NAVBAR */
+    .navbar, .container-fluid{
+        width: calc(100vw - 77px) !important;
+    }
+    button.navbar-toggler{
+        background-color: #a2cfffce;
+    }
+    #navbarNav{
+        padding: 3.5rem 1rem 0 0;
+    }
+    .nav-link{
+        margin: 0;
+        float: right;
+    }
+    /* END OF NAVBAR */
+
+
+    /* MAIN HEADERS */
+    .program-info h3, .program-po h3, .core-courses h3, .careers h3, .testimonials h3{
+        font-size: calc(100vw / 2500 * 100);
+        text-align: left;
+    }
+    .program-description{
+        font-size: calc(100vw / 3500 * 100);
+    }
+
+
+    /* CORE COURSES */
+    .course-title strong {
+        font-size: calc(80vw / 3750 * 100);
+        text-align: left;
+    }
+    .course-content {
+        font-size: calc(80vw / 4500 * 100);
+    }
+    .core-courses .container{
+        height: 400px;
+    }
+    /* CAREERS */
+    .careers ul li{
+        font-size: calc(80vw / 4000 * 100);
+    }
+
+    .olcards li {
+        padding: 0;
+    }
+
+    .bsit-testimonials {
+        margin-top: 20px;
+    }
+}
+/* END OF RESPONSIVE DESIGN */

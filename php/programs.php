@@ -36,21 +36,21 @@
                     <div class="content">   
                         <h2 class="title">Bachelor of Science in Information System</h2>
                         <p class="copy">Manage the flow of information in a company.</p>
-                        <a href="#"><button class="btn">Learn More</button></a>
+                        <a href="bsis.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content content-emc">
                         <h2 class="title">Bachelor or Science in Entertainment and Multimedia Computing</h2>
                         <p class="copy">Bringing creativity to life with technology.</p>
-                        <a href="#"><button class="btn">Learn More</button></a>
+                        <a href="bsemc.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content">
                         <h2 class="title">Bachelor in Library and Information Science</h2>
                         <p class="copy">Guardians of knowledge in the digital age.</p>
-                        <a href="#"><button class="btn">Learn More</button></a>
+                        <a href="blis.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
             </div>

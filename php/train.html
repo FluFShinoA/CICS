@@ -7,204 +7,61 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <style>
-    *{
-        /* border: 1px solid red; */
-    }
-    .olcards,
-    .olcards * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+        * {
+          box-sizing: border-box;
+        }
+        
+        .flex-container {
+          display: flex;
+          flex-direction: row;
+          font-size: 30px;
+          text-align: center;
+        }
+        
+        .flex-item-left {
+            display: flex;
+            flex-direction: column;
+          background-color: #f1f1f1;
+          padding: 10px;
+          flex: 50%;
+        }
+        
+        .flex-item-right {
+            
+            display: flex;
+            flex-direction: column;
+          background-color: dodgerblue;
+          padding: 10px;
+          flex: 50%;
+        }
+        
+        /* Responsive layout - makes a one column-layout instead of two-column layout */
+        @media (max-width: 800px) {
+          .flex-container {
+            flex-direction: column;
+          }
+        }
+        </style>
 
-    .olcards {
-        list-style: none;
-        counter-reset: cardCount;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        --cardsGap: 1rem;
-        gap: var(--cardsGap);
-        padding-bottom: var(--cardsGap);
-    }
-    .olcards li {
-        counter-increment: cardCount;
-        display: flex;
-        color: white;
-        --labelOffset: 1rem;
-        --arrowClipSize: 1.5rem;
-        margin-top: var(--labelOffset);
-        padding: 0 30px;
-    }
-
-    .olcards li::before {
-        content: counter(cardCount, decimal-leading-zero);
-        background: white;
-        color: var(--cardColor);
-        font-size: 2em;
-        font-weight: 700;
-        transform: translateY(calc(-1 * var(--labelOffset)));
-        margin-right: calc(-1 * var(--labelOffset));
-        z-index: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-inline: 0.5em;
-    }
-
-    .olcards li .content {
-        width: 100%;
-        background-color: var(--cardColor);
-        --inlinePadding: 1em;
-        --boxPadding: 0.5em;
-        display: grid;
-        padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
-            var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset));
-        grid-template-areas:
-            "icon title"
-            "icon text";
-        gap: 0.25em 1em;
-        clip-path: polygon(
-            0 0,
-            calc(100% - var(--arrowClipSize)) 0,
-            100% 50%,
-            calc(100% - var(--arrowClipSize)) 100%,
-            calc(100% - var(--arrowClipSize)) calc(100% + var(--cardsGap)),
-            0 calc(100% + var(--cardsGap))
-        );
-        position: relative;
-        justify-content: left;
-    }
-    .olcards li .content::before {
-        content: "";
-        position: absolute;
-        width: var(--labelOffset);
-        height: var(--labelOffset);
-        background: var(--cardColor);
-        left: 0;
-        bottom: 0;
-        clip-path: polygon(0 0, 100% 0, 0 100%);
-        filter: brightness(0.75);
-    }
-    .olcards li .content::after {
-        content: "";
-        position: absolute;
-        height: var(--cardsGap);
-        width: var(--cardsGap);
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent 50%);
-        left: 0;
-        top: 100%;
-    }
-    .olcards li .content .title {
-        grid-area: title;
-        font-size: 1em;
-        text-shadow: 2px 2px #000;
-    /* font-weight: 700; */
-    }
-    .olcards li .content .text {
-        grid-area: text;
-        font-size: 0.8em;
-        text-shadow: 1px 1px #000;
-        text-align: justify;
-    }
-    </style>
 </head>
 <body>
-        <h1>Ordered List Arrow Cards</h1>
 
-
-        <ol class="olcards">
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <li style="--cardColor:#05295D" class="w-100">
-                        <div class="content">
-                            <div class="title">IT01</div>
-                            <div class="text">Apply knowledge of computing, science and mathematics appropriate to the discpline.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#06377A" class="w-100">
-                        <div class="content">
-                            <div class="title">IT02</div>
-                            <div class="text">Understand best practices and standards and their applications. </div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#094699" class="w-100">
-                        <div class="content">
-                            <div class="title">IT03</div>
-                            <div class="text">Analyze complex problems and identify and define the computing requirements appropriate to its solution.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#0B53B9" class="w-100">
-                        <div class="content">
-                            <div class="title">IT04</div>
-                            <div class="text">Identify and analyze users' needs and take them into account in the selction creation, evaluation and administration of computer based-systems.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#0C5ECE" class="w-100">
-                        <div class="content">
-                            <div class="title">IT05</div>
-                            <div class="text">Design, implement and evaluate computer-based systems, processes, components or programs to meet desired needs and requirements under various constraints.</div>
-                        </div>
-                    </li>
-                    
-                    <li style="--cardColor:#0C68E5" class="w-100">
-                        <div class="content">
-                            <div class="title">IT06</div>
-                            <div class="text">Integrate IT-based solutions into the user environment effectively.</div>
-                        </div>
-                    </li>
-                    
-                    <li style="--cardColor:#146FF1" class="w-100">
-                        <div class="content">
-                            <div class="title">IT07</div>
-                            <div class="text">Apply knowledge through the use of current techniques, skills, tools, and practices necessary for the IT profession.</div>
-                        </div>
-                    </li>
-                </div>
-
-
-                <div class="col-md-6 col-12">
-                    <li style="--cardColor:#05295D" class="w-100">
-                        <div class="content">
-                            <div class="title">IT08</div>
-                            <div class="text">Function effectively as a member or leader of a development team recognizing the different roles within a team to accomplish a common goal.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#06377A" class="w-100">
-                        <div class="content">
-                            <div class="title">IT09</div>
-                            <div class="text">Assist in the creation of an effective IT project plan.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#094699" class="w-100">
-                        <div class="content">
-                            <div class="title">IT10</div>
-                            <div class="text">Communicate effectively within the computing community and with society at large acout complex xomputing activities through logical writing, presentation, and clear instructions.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#0B53B9" class="w-100">
-                        <div class="content">
-                            <div class="title">IT11</div>
-                            <div class="text">Analyze the local and global impact of computing information technology on individuals, organizations and society. </div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#0C5ECE" class="w-100">
-                        <div class="content">
-                            <div class="title">IT12</div>
-                            <div class="text">Understand professional, ethical, legal, security, and social issues and responsibilities in the utilization of information technology.</div>
-                        </div>
-                    </li>
-                    <li style="--cardColor:#0C68E5" class="w-100">
-                        <div class="content">
-                            <div class="title">IT13</div>
-                            <div class="text">Recognize the need for anf engage in planning self0learning and improving performance as a foundation for continuing professional development. </div>
-                        </div>
-                    </li>
-                </div>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <div class="flex-item-inner-left">1</div>
+                <div class="flex-item-inner-left">2</div>
+                <div class="flex-item-inner-left">3</div>
             </div>
+            <div class="flex-item-right">
+                <div class="flex-item-inner-right">1</div>
+                <div class="flex-item-inner-right">2</div>
+                <div class="flex-item-inner-right">3</div>
+            </div>
+        </div>
+    
 
-            
-        </ol>
+
+
     <script src="../js/bootstrap.min.js"></script>
 
 </body>

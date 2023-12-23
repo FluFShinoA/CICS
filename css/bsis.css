@@ -1,0 +1,10 @@
+.bsis-banner{
+    background-image: url(../img/bsis-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.bsis-banner img{
+    width: 100%;
+    height: 85vh;
+}
