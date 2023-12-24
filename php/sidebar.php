@@ -59,7 +59,7 @@
                 </div>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Faculty</a></li>
-                    <li><a href="#">Faculty Directory</a></li>
+                    <li><a href="faculty-dir.php">Faculty Directory</a></li>
                     <li><a href="#">Laboratories</a></li>
                     <li><a href="#">Publications</a></li>
                 </ul>
