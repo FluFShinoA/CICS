@@ -1,0 +1,185 @@
+*{
+    /* border: 1px solid red; */
+}
+.page-title{
+    padding-top: 50px;
+}
+.container .row{
+    width: 90%;
+    display: flex;
+    padding: 30px 0 0 50px;
+    margin: auto;
+}
+.main-timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-timeline .timeline{
+    width: 100%;
+    margin-block: 25px;
+
+}
+.main-timeline .timeline-content{
+    background: var(--5th-color);
+    border: 1px solid #00143186;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -5px -5px 15px rgb(255, 255, 255),
+                5px 5px 15px rgba(0, 0, 0, 0.104);
+    padding: 20px 30px 20px 100px;
+    display: block;
+    position: relative;
+}
+
+.main-timeline .timeline-content:before{
+    content: "";
+    background: linear-gradient(to top left, transparent 50%, #00204e 52%);
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.main-timeline .timeline-year{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 10px #052a5d77;
+    color: var(--5th-color);
+    font-size: 35px;
+    font-weight: 600;
+    width: 120px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    top: -20px;
+    left: -60px;
+}
+.timeline-year .step{
+    font-size: var(--normal);
+}
+.timeline-year .step-num{
+    font-size: var(--4x-large);
+}
+.main-timeline .title{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+    text-align: left;
+}
+.main-timeline .description{
+    font-size: var(--normal);
+    margin: 0;
+}
+.inner-desc ul li, .desc-step-2 li{
+    padding-block: 10px;
+}
+
+.desc-step-2-inner li{
+    padding-block: 1px;
+    font-size: var(--small);
+}
+
+
+
+.qr-row{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 75px;
+}
+.qr-wrapper{
+    padding: 20px; margin: 0;
+}
+.qr-inner{
+    border-radius: 10px;
+    border: 1px solid #00214e1e;
+    box-shadow: -5px -5px 15px rgb(255, 255, 255),
+                5px 5px 15px rgba(0, 0, 0, 0.104) !important;
+}
+.qr-code{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.qr-code img{
+    width: 225px;
+    height: auto;
+}
+.step-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.step-wrapper .step{
+    font-size: var(--2x-large);
+    font-weight: bold;
+}
+.qr-description{
+    font-size: var(--small);
+    text-align: center;
+    color: #000;
+    border-top: 1px solid #00204e;
+}
+.neu-automate strong{
+}
+
+
+@media screen and (max-width:990px){
+    .container .row{
+        padding: 30px 0 0;
+    }
+    .main-timeline .timeline{ 
+        width: 100%; 
+    }
+    .main-timeline .timeline-year{
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0 5px 10px #052a5d77;
+
+
+        line-height: 100px;
+        width: 100%;
+        height: 100px;
+        left: auto;
+        right: -20px;
+        top: -42px;
+    }
+    .timeline-year .step, .timeline-year .step-num{
+        margin-inline: 5px;
+    }
+    .main-timeline .timeline-content{
+        border-radius: 0 0 10px 10px;
+        padding: 100px 10px 20px 10px !important;
+    }
+    .main-timeline .timeline-content:before{
+        width: 60px;
+        transform: rotate(90deg);
+        bottom: auto;
+        top: 20px;
+        left: -20px;
+    }
+    .main-timeline .title{
+        text-align: center;
+        width: 100%;
+        margin: 0; padding: 0;
+        font-size: calc(100vw / 3000 * 100) !important; 
+    }
+    .description{
+        text-align: justify;
+    }
+    .description strong, .inner-desc strong{
+        font-size: calc(100vw / 3500 * 100) !important; 
+    }
+    .inner-desc{
+        text-align: left;
+    }
+    .inner-desc ul li, .desc-step-2 li, .desc-step-3 li, .note-step-1{
+        text-align: justify;
+        font-size: calc(50vw / 2000 * 100);
+    }
+}

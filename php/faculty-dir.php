@@ -18,7 +18,7 @@
 
         <div class="container">
             <div class="pade-title py-5" style="display: grid;">
-                <h3 style="place-self: center; font-weight: bold;">Faculty Directory</h3>
+                <h3 style="place-self: center; font-weight: bold;">FACULTY DIRECTORY</h3>
             </div>
             
             <div class="row top-profiles">

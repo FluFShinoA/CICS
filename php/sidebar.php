@@ -41,7 +41,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="admission.php">
                     <i class="fas fa-file-signature"></i>
                     <span class="link_name">Admission</span>
                 </a>
