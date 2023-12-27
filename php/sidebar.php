@@ -74,7 +74,7 @@
                 </div>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Engagement</a></li>
-                    <li><a href="#">Career Services</a></li>
+                    <li><a href="internship.php">Internship</a></li>
                     <li><a href="#">Student Organization</a></li>
                 </ul>
             </li>
