@@ -150,106 +150,99 @@
 
         <section class="core-courses" id="core-courses">
             <h3>Core Courses</h3>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="container">
-                        <div class="panel active">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Introduction to Information Technology</strong>
-                            </div>
-                            <div class="course-content">
-                                This foundational course provides a broad overview of the IT field, 
-                                including hardware, software, networking, data management, security, 
-                                and ethical considerations. Students learn about the role of IT in 
-                                business, communication, and society.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Programming Fundamentals</strong>
-                            </div>
-
-                            <div class="course-content">
-                                This course introduces students to the basic concepts of programming, 
-                                including variables, data types, control flow, functions, and 
-                                object-oriented programming. Students learn to write simple programs 
-                                in a beginner-friendly language like Python or Java.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Database Management Systems</strong>
-                            </div>
-
-                            <div class="course-content">
-                                This course covers the design, implementation, and administration of 
-                                databases. Students learn about relational databases, SQL queries, 
-                                data modeling, normalization, and database security.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Web Development and Technologies</strong>
-                            </div>
-
-                            <div class="course-content">
-                                This course delves into the development of websites and web 
-                                applications. Students learn about HTML, CSS, JavaScript, 
-                                front-end and back-end development frameworks, and web content 
-                                management systems.
-                            </div>
-                        </div>
-                        
+            <div class="container">
+                
+                <div class="panel active">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Introduction to Information Technology</strong>
+                    </div>
+                    <div class="course-content">
+                        This foundational course provides a broad overview of the IT field, 
+                        including hardware, software, networking, data management, security, 
+                        and ethical considerations. Students learn about the role of IT in 
+                        business, communication, and society.
                     </div>
                 </div>
-                <div class="col-md-6 col-12 panel-2">
-                    <div class="container">
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Operating Systems and Administration</strong>
-                            </div>
-                            <div class="course-content">
-                                This course covers the fundamentals of operating systems like Windows, Linux, and macOS. Students learn about system resources, processes, memory management, file systems, networking, and system administration tools.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>IT Project Management</strong>
-                            </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Programming Fundamentals</strong>
+                    </div>
 
-                            <div class="course-content">
-                                This course introduces students to the principles and best practices of IT project management. Students learn about project planning, scheduling, cost estimation, resource allocation, risk management, and agile methodologies.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>System Analysis and Design</strong>
-                            </div>
-
-                            <div class="course-content">
-                                This course covers the analysis, design, and implementation of information systems. Students learn about requirements gathering, feasibility studies, system modeling, data flow diagrams, system architecture, and user interface design.
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="course-title">
-                                <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
-                                <strong>Information Security</strong>
-                            </div>
-
-                            <div class="course-content">
-                                This course explores the various aspects of information security, including network security, data security, cyber threats, security protocols, and ethical hacking. Students learn how to protect information systems from unauthorized access, modification, or destruction.
-                            </div>
-                        </div>
-                        
+                    <div class="course-content">
+                        This course introduces students to the basic concepts of programming, 
+                        including variables, data types, control flow, functions, and 
+                        object-oriented programming. Students learn to write simple programs 
+                        in a beginner-friendly language like Python or Java.
                     </div>
                 </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Database Management Systems</strong>
+                    </div>
+
+                    <div class="course-content">
+                        This course covers the design, implementation, and administration of 
+                        databases. Students learn about relational databases, SQL queries, 
+                        data modeling, normalization, and database security.
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Web Development and Technologies</strong>
+                    </div>
+
+                    <div class="course-content">
+                        This course delves into the development of websites and web 
+                        applications. Students learn about HTML, CSS, JavaScript, 
+                        front-end and back-end development frameworks, and web content 
+                        management systems.
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Operating Systems and Administration</strong>
+                    </div>
+                    <div class="course-content">
+                        This course covers the fundamentals of operating systems like Windows, Linux, and macOS. Students learn about system resources, processes, memory management, file systems, networking, and system administration tools.
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>IT Project Management</strong>
+                    </div>
+
+                    <div class="course-content">
+                        This course introduces students to the principles and best practices of IT project management. Students learn about project planning, scheduling, cost estimation, resource allocation, risk management, and agile methodologies.
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>System Analysis and Design</strong>
+                    </div>
+
+                    <div class="course-content">
+                        This course covers the analysis, design, and implementation of information systems. Students learn about requirements gathering, feasibility studies, system modeling, data flow diagrams, system architecture, and user interface design.
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="course-title">
+                        <i class="fa-regular fa-circle" style="font-size: var(--2x-small); margin: 5px 10px 0 0;"></i>
+                        <strong>Information Security</strong>
+                    </div>
+
+                    <div class="course-content">
+                        This course explores the various aspects of information security, including network security, data security, cyber threats, security protocols, and ethical hacking. Students learn how to protect information systems from unauthorized access, modification, or destruction.
+                    </div>
+                </div>
+                
             </div>
         </section>
 

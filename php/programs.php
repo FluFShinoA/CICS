@@ -18,6 +18,7 @@
             <h3>PROGRAMS</h3>
 
             <div class="row programs-wrapper container-fluid">
+
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content">
                         <h2 class="title">Bachelor of Science in Information Technology</h2>
@@ -25,6 +26,7 @@
                         <a href="bsit.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
+
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content">
                         <h2 class="title">Bachelor of Science in Computer Science</h2>
@@ -32,6 +34,7 @@
                         <a href="bscs.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
+
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content">   
                         <h2 class="title">Bachelor of Science in Information System</h2>
@@ -39,6 +42,7 @@
                         <a href="bsis.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
+
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content content-emc">
                         <h2 class="title">Bachelor or Science in Entertainment and Multimedia Computing</h2>
@@ -46,6 +50,7 @@
                         <a href="bsemc.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
+
                 <div class="card col-md-2 col-sm-6 col-12 mx-3">
                     <div class="content">
                         <h2 class="title">Bachelor in Library and Information Science</h2>
@@ -53,6 +58,7 @@
                         <a href="blis.php"><button class="btn">Learn More</button></a>
                     </div>
                 </div>
+
             </div>
         </div>
 

@@ -23,10 +23,11 @@
 
 
 .main-wrapper{
-    height: 90vh;
+    height: 100vh;
     display: flex !important;
     flex-direction: column;
     justify-content: center !important;
+    align-items: center;
 }
 
 .programs-wrapper{
@@ -183,17 +184,18 @@ h3{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .main-wrapper{
-        height: 100vh;
+        height: auto;
+        padding-block: 50px;
     }
-    .row {
-        padding: 50px 0;
+    .main-wrapper h3{
+        margin: 0;
     }
     .card {
-        padding: 20px 0;
         width: 80% !important;
-        height: 150px !important; /* Set height to 100% to fill the container height */
+        height: 20% !important; /* Set height to 100% to fill the container height */
+        margin-block: 20px;
     }
     .content{
         margin-top: 1rem;
@@ -204,8 +206,8 @@ h3{
     .copy{
         font-size: var(--2x-small);
     }
-    .btn{
-        margin-top: 0.1rem;
+    .btn{   
         padding:  0.25rem 0.75rem;
+        margin-bottom: 20px;
     }
 }

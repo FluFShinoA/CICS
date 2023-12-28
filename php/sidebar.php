@@ -78,16 +78,7 @@
                     <li><a href="#">Student Organization</a></li>
                 </ul>
             </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-envelope"></i>
-                    <span class="link_name">Contact</span>
-                </a>
-                <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Contact</a></li>
-                </ul>
-            </li>
-                
+            
             <li id="last-list">
                 <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/show-sidepanel.png" alt="show-sidepanel" class="fa-sidebar"/>
             </li>

@@ -4,7 +4,6 @@
         url('../fonts/ShelleyAllegro/Shelley-AllegroScript\ Wd.woff') format('woff'),
         url('../fonts/ShelleyAllegro/Shelley-AllegroScript\ Wd.otf') format('opentype');
 }
-
 /* START OF CICS FOOTER */
 #cics-footer{
     background-color: var(--3rd-color) !important;
@@ -44,7 +43,13 @@
 }
 /* END OF CICS FOOTER */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
+    #cics-footer {
+        padding: 0; margin: 0;;
+    }
+    #cics-footer .row{
+        width: 100%;
+    }
     /* START OF CICS FOOTER */
     .inst-logos img{
         margin: 0;
@@ -56,12 +61,6 @@
     }
     .contact-address{
         font-size: var(--x-small);
-    }
-    .cics-vmgo .col-12, .contact-address .col-12 a{
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     /* END OF CICS FOOTER */
 }

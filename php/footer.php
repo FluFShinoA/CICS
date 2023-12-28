@@ -10,6 +10,7 @@
                 
             </div>
         </div>
+
         <div class="col-md-3 col-12">
             <div class="row cics-vmgo">
                 <div class="col-12">
@@ -25,7 +26,6 @@
                     <a href="about.php">CICS Goals</a>
                 </div>
             </div>
-
         </div>
         
         <div class="col-md-5 col-12">
