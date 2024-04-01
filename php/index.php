@@ -30,15 +30,15 @@
                     </div>
                 </div>
                 <div class="scroll-container col-12 d-flex justify-content-center">
-                    <a href="#main-content"><span></span>Discover CICS</a>
+                    <a href="#blog-slider-wrapper"><span></span>Discover CICS</a>
                 </div>
             </div>
         </section>
 
         <!-- RECENT EVENTS HAPPENED IN CICIS -->
-        <section class="blog-slider-wrapper">
-            <h1>RECENTS</h1>
-            <div class="blog-slider">
+        <section class="blog-slider-wrapper" id="blog-slider-wrapper">
+            <h1 data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-once="true">RECENTS</h1>
+            <div class="blog-slider" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-once="true">
                 <div class="blog-slider__wrp swiper-wrapper">
                     
                     <div class="blog-slider__item swiper-slide">
@@ -101,84 +101,87 @@
             </div>
         </section>
     
-        <!-- Carousel for GALLERY -->
-        <section id="gallery">
-            <div class="gallery-cover row w-100 p-0 m-0">
-                <strong id="gallery-title" class="col-12 text-center">
-                    GALLERY
+        <!-- Carousel for RECOMMEND READS -->
+        <section id="reads">
+            <div class="reads-cover row w-100 p-0 m-0">
+                <strong id="reads-title" class="col-12 text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-once="true">
+                    RECOMMEND READS
                 </strong>
-                <div id="gallery-carousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="cards-wrapper">
-
-                                <div class="card">
-                                    <img src="../img/announcement-1.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <img src="../img/announcement-2.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <img src="../img/announcement-3.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="recommend-read" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
+                    <div class="article-info">
+                        <div class="article-date">
+                            01 Jan, 2024
                         </div>
-                        <div class="carousel-item">
-                            <div class="cards-wrapper">
-                                <div class="card">
-                                    <img src="../img/announcement-2.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../img/announcement-3.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../img/announcement-1.jpg" alt="image" />
-
-                                    <div class="card-content">
-                                        <p>IMAGE TITLE</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex assumenda quae odit odio consequuntur cumque dolorum dolor sunt...</p>
-                                    </div>
+                        <div class="article-title">
+                            GPU Killer? Ryzen 8000G Aims for Gamers & Creators
+                        </div>
+                        <div class="article-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique atque quis necessitatibus, voluptate adipisci voluptas distinctio quo odit maiores, velit alias dolore, temporibus perferendis perspiciatis voluptatum consectetur excepturi ullam minima impedit accusantium at id sequi numquam officia? Deleniti temporibus fugiat fuga debitis.
+                        </div>
+                        <a href="">
+                            <button>
+                                Read More
+                            </button>
+                        </a>
+                    </div>
+                    <div class="article-img">
+                        <img src="../img/read2.jpg" alt="Article 1 Image Cover">
+                    </div>
+                </div>
+                
+                <div class="other-reads row p-0" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card card-blog">
+                            <div class="card-image card-1"></div>
+                            <div class="title">
+                                <a href="">
+                                    <h6 class="title-name">Get Ready to Level Up: Android 15 Preview Arrives</h6>
+                                </a>
+                                <div class="card-date">
+                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-        
-        
-                    <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev" id="prev-btn">
-                        <span class="carousel-control-prev-icon" aria-hidden="true" id="carousel-prev-2"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel" data-bs-slide="next" id="next-btn">
-                        <span class="carousel-control-next-icon" aria-hidden="true" id="carousel-next-2"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card card-blog">
+                            <div class="card-image card-2"></div>
+                            <div class="title">
+                                <a href="">
+                                    <h6 class="title-name">Grok Gets Brainy: Coding & Math Skills Power Up</h6>
+                                </a>
+                                <div class="card-date">
+                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card card-blog">
+                            <div class="card-image card-3"></div>
+                            <div class="title">
+                                <a href="">
+                                    <h6 class="title-name">AR Revolution in Health: Apple Vision Pro Opens Doors</h6>
+                                </a>
+                                <div class="card-date">
+                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card card-blog">
+                            <div class="card-image card-4"></div>
+                            <div class="title">
+                                <a href="">
+                                    <h6 class="title-name">Coding Comrade: Meet Devin, the World's First AI Developer</h6>
+                                </a>
+                                <div class="card-date">
+                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section> 
@@ -188,12 +191,12 @@
             <div class="upcoming-wrapper">
                 <div class="row container-fluid">
                     <div class="col-md-6 col-12 event-cont">
-                        <h1 class="upcoming-title">
+                        <h1 class="upcoming-title" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
                             <i class='bx bx-calendar'></i> UPCOMING <br> EVENTS
                         </h1>
                     </div>
-                    <div class="col-md-6 col-12 event-list">
-                        <div class="event">
+                    <div class="col-md-6 col-12 event-list" >
+                        <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="100" data-aos-once="true">
                             <div class="date">
                                 <span class="month">JAN</span> 
                                 <span class="day">15</span>
@@ -208,7 +211,7 @@
                             </div>
                         </div>
 
-                        <div class="event">
+                        <div class="event"data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
                             <div class="date">
                                 <span class="month">FEB</span> 
                                 <span class="day">14</span>
@@ -224,7 +227,7 @@
                             
                         </div>
 
-                        <div class="event">
+                        <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-once="true">
                             <div class="date">
                                 <span class="month">MAR</span> 
                                 <span class="day">23</span>
@@ -239,7 +242,7 @@
                             </div>
                         </div>
 
-                        <div class="event">
+                        <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="250" data-aos-once="true">
                             <div class="date">
                                 <span class="month">APR</span> 
                                 <span class="day">14</span>
@@ -254,7 +257,7 @@
                             </div>
                         </div>
 
-                        <div class="event">
+                        <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-once="true">
                             <div class="date">
                                 <span class="month">MAY</span> 
                                 <span class="day">1-15</span>
@@ -276,25 +279,14 @@
         <!-- Footer of CICS Website -->
         <?php include 'footer.php' ?>
     </main>
-
+    
+    <script src="../js/script.js"></script>
     <script src="../js/jquery-3.7.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../aos-master/dist/aos.js"></script>
     <script>
-        var swiper = new Swiper('.blog-slider', {
-            spaceBetween: 30,
-            effect: 'fade',
-            loop: true,
-            mousewheel: {
-                invert: false,
-            },
-            // autoHeight: true,
-            pagination: {
-                el: '.blog-slider__pagination',
-                clickable: true,
-            }
-        });
+        AOS.init();
     </script>
 </body>
 </html>

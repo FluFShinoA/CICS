@@ -23,7 +23,7 @@
     width: 150px !important;
     border-radius: 50%;
     box-shadow:  8px 8px 16px #1f1f1f,
-                -8px -8px 16px #7b7b7b;
+                -2px -2px 4px #7b7b7b;
 }
 .new-era-name small{
     font-size: var(--small);

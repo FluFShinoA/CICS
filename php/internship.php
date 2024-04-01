@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php include 'head_components.php'; ?>
 
-
+        
         <link rel="stylesheet" href="../css/owl.carousel.min.css">
         <link rel="stylesheet" href="../css/owl.theme.default.min.css">
         <link rel="stylesheet" href="../css/internship.css">

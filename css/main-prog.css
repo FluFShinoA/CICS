@@ -120,21 +120,17 @@ nav{
     padding-bottom: 20px;
 }
 
-
-
 /* START OF PROGRAM PO */
 .program-po h3{
     font-weight: bold;
     padding-bottom: 20px;
 }
-
 .olcards,
 .olcards * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .olcards {
     list-style: none;
     counter-reset: cardCount;
@@ -262,7 +258,7 @@ nav{
 }
 
 .panel.active {
-    height: 300px;
+    height: 250px;
     border: 1px solid var(--1st-color);
     transition: height 0.5s ease-in-out;
 }
@@ -274,8 +270,9 @@ nav{
 
 .course-title strong {
     margin: 0 10px;
-    font-size: calc(40vw / 3750 * 100);
+    font-size: calc(45vw / 3750 * 100);
     font-weight: bold;
+    text-align: center;
 }
 
 .panel.active .course-title {
@@ -284,7 +281,7 @@ nav{
 
 .course-content {
     opacity: 0;
-    margin: 16px 20px;
+    margin: 35px 20px 0;
     line-height: 28px;
     transition: opacity 0.2s ease-in;
     font-size: calc(40vw / 4250 * 100);
@@ -313,10 +310,6 @@ nav{
 /* END OF CAREER OCCUPATIONS */
 
 /* START OF ALUMNI TESTIMONIALS */
-.testimonials{
-    padding-bottom: 50px;
-}
-
 .testimonials h3{
     font-weight: bold;
     padding-bottom: 1rem;
