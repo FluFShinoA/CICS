@@ -40,7 +40,9 @@ h3{
     margin-top: -100px;
     margin-bottom: 70px;
     font-weight: bold;
+    font-family: Azonix;
     font-size: var(--3x-large);
+    letter-spacing: 5px;
 }
 .card {
     overflow: hidden;

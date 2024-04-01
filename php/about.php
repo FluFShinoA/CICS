@@ -17,17 +17,21 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-12 col-md-8 col-lg-6 pills-container">
-                    <ul class="nav nav-pills flex-column flex-md-row text-center">
+                    <ul class="nav nav-pills text-center">
                         <li class="nav-item">
                             <a class="nav-link active" id="Vision-tab" data-bs-toggle="pill" href="#Vision" role="tab" aria-controls="Vision" aria-selected="true">
-                                Vision
+                                <i class="fa-light fa-lightbulb-on"></i> <span>Vision</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Mission-tab" data-bs-toggle="pill" href="#Mission" role="tab" aria-controls="Mission" aria-selected="false">Mission</a>
+                            <a class="nav-link" id="Mission-tab" data-bs-toggle="pill" href="#Mission" role="tab" aria-controls="Mission" aria-selected="false">
+                                <i class="fa-regular fa-rocket-launch"></i> <span>Mission</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Goals-tab" data-bs-toggle="pill" href="#Goals" role="tab" aria-controls="Goals" aria-selected="false">Goals</a>
+                            <a class="nav-link" id="Goals-tab" data-bs-toggle="pill" href="#Goals" role="tab" aria-controls="Goals" aria-selected="false">
+                                <i class="fa-regular fa-bullseye-arrow"></i> <span>Goals</span>
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-content mt-3">
@@ -42,7 +46,6 @@
                         </div>
                         <div class="tab-pane fade text-center" id="Goals" role="tabpanel" aria-labelledby="Goals-tab">
                             The College of Informatics and Computing Studies is committed to pursue excellence in the field of Information and Communications Technology (ICT) through the following thrusts: <br><br>
-
                             <ol>
                                 <li>
                                     Support the University’s vision and mission statements through the
@@ -75,19 +78,12 @@
                 </div>
             </div>
         </div>
-
         <?php include 'footer.php' ?>
-        
-        <!-- Bootstrap 5 JS and Popper.js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-GLhlTQ8iK1u5LzZSKGrQrBpDr6H/EpIMAH4ZlR8O6SHpps/9XClQO8InlJ5f9d" crossorigin="anonymous"></script>
-
-        
-        
     </main>
-
 
     <script src="../js/jquery-3.7.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-GLhlTQ8iK1u5LzZSKGrQrBpDr6H/EpIMAH4ZlR8O6SHpps/9XClQO8InlJ5f9d" crossorigin="anonymous"></script>
 </body>
 </html>

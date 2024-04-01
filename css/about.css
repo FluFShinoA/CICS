@@ -1,4 +1,6 @@
-
+*{
+    /* border:solid 1px red; */
+}
 body{
     background-image: url(../img/cics-bg-7.jpg);
     background-size: 100% 100%;
@@ -32,7 +34,6 @@ main .container{
                 -5px -5px 13px #103275;
     margin-right: 30px;
     width: 150px;
-    
 }
 
 .nav-item a{
@@ -76,21 +77,25 @@ main .container{
     line-height: 25px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 991px){
     main .container{
         height: 100vh;
     }
     .nav-pills{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        margin: 0 0 0 24px;
     }
     .nav-pills .nav-item{
-        margin-bottom: 20px;
+        margin: 0;
+        width: 80px;
+    }
+    .nav-pills .nav-item .nav-link span{
+        display: none;
     }
     .tab-content{
         padding: 10px 20px;
+        height: 60vh !important; 
     }
     .tab-pane{
         font-size: var(--x-small);

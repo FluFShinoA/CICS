@@ -29,7 +29,7 @@
 
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/Picture1.png" alt="" class="img-fluid">
+                            <img src="../img/female-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -51,7 +51,7 @@
 
                         <!-- Team Details-->
                         <div class="single_advisor_details_info">
-                            <h6>Simeon, Jan Riley L.</h6>
+                            <h6>CICS Dean</h6>
                             <p class="designation">CICS Dean</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
 
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/Picture5.png" alt="" class="img-fluid">
+                            <img src="../img/male-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -85,7 +85,7 @@
 
                         <!-- Team Details-->
                         <div class="single_advisor_details_info">
-                            <h6>Tolarba, Karl Patrick C.</h6>
+                            <h6>Tagasubaybay</h6>
                             <p class="designation">Ministrong Tagasubaybay</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
 
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/male-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -135,7 +135,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/male-faculty.png" alt="" class="img-fluid">
                             <!-- Social Info-->
                             <div class="social-info">
                                 <a href="#">
@@ -166,7 +166,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/female-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -198,7 +198,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/female-faculty.png" alt="" class="img-fluid">
                             <!-- Social Info-->
                             <div class="social-info">
                                 <a href="#">
@@ -231,7 +231,7 @@
 
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/male-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -264,7 +264,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/female-faculty.png" alt="" class="img-fluid">
                             <!-- Social Info-->
                             <div class="social-info">
                                 <a href="#">
@@ -295,7 +295,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/male-faculty.png" alt="" class="img-fluid">
 
                             <!-- Social Info-->
                             <div class="social-info">
@@ -327,7 +327,7 @@
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <!-- Team Thumb-->
                         <div class="advisor_thumb">
-                            <img src="../img/faculty-profile.png" alt="" class="img-fluid">
+                            <img src="../img/female-faculty.png" alt="" class="img-fluid">
                             <!-- Social Info-->
                             <div class="social-info">
                                 <a href="#">

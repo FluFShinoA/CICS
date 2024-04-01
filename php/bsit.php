@@ -83,7 +83,7 @@
                         <li style="--cardColor:#05295D" class="w-100">
                             <div class="content">
                                 <div class="title">IT01</div>
-                                <div class="text">Apply knowledge of computing, science and mathematics appropriate to the discpline.</div>
+                                <div class="text">Apply knowledge of computing, science and mathematics appropriate to the discipline.</div>
                             </div>
                         </li>
                         <li style="--cardColor:#06377A" class="w-100">
@@ -101,7 +101,7 @@
                         <li style="--cardColor:#0B53B9" class="w-100">
                             <div class="content">
                                 <div class="title">IT04</div>
-                                <div class="text">Identify and analyze users' needs and take them into account in the selction creation, evaluation and administration of computer based-systems.</div>
+                                <div class="text">Identify and analyze users' needs and take them into account in the selction creation, evaluation and administration of computer-based systems.</div>
                             </div>
                         </li>
                         <li style="--cardColor:#0C5ECE" class="w-100">
@@ -300,9 +300,9 @@
             <div class="bsit-testimonials">
                 <div class="owl-carousel owl-carousel1 owl-theme">
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni1.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Ronne Galle<br />
+                            <h5>Osamu Dazai<br />
                             <span> Systems Administrator </span>
                             </h5>
                             <p class="card-text">“ My BSIT degree from New Era University was the launching pad for my career in tech. The curriculum was rigorous and relevant, preparing me with the essential skills and knowledge to hit the ground running. ” </p>
@@ -310,7 +310,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni2.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/female-slhhouette.png" alt="">
                         <div class="card-body">
                             <h5>Missy Limana<br />
                             <span> QA Specialist </span>
@@ -320,9 +320,9 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni3.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/female-slhhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Martha Brown<br />
+                            <h5>Sasha Brown<br />
                             <span> Computer Porgrammer </span>
                             </h5>
                             <p class="card-text">“ I went from coding newbie to freelance web developer thanks to the comprehensive curriculum at New Era University. The small class sizes and personalized attention gave me the boost I needed. ” </p>
@@ -330,9 +330,9 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni4.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Hanna Lisem<br />
+                            <h5>Edogawa Ranpo<br />
                             <span> Web Developer </span>
                             </h5>
                             <p class="card-text">“ The BSIT program not only honed my technical skills but also developed my leadership and communication abilities. Working in teams on real-world projects prepared me for the challenges of managing IT projects. ” </p>
