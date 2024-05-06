@@ -36,7 +36,9 @@
                     </ul>
                     <div class="tab-content mt-3">
                         <div class="tab-pane fade show active" id="Vision" role="tabpanel" aria-labelledby="Vision-tab">
-                            A world class IT institution
+                            An avenue of the University in honing 
+                            prime movers of advancement in the 
+                            information and communication era.
                         </div>
                         <div class="tab-pane fade text-center" id="Mission" role="tabpanel" aria-labelledby="Mission-tab">
                             Produce graduates responsive to
@@ -80,7 +82,29 @@
         </div>
         <?php include 'footer.php' ?>
     </main>
-
+    <script>
+        !(function () {
+            let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+                window.WebChat.default(
+                {
+                    title: 'CICSpert',
+                    initPayload: '/greet',
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                    // add other props here
+                },
+                null
+                );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+    </script>
     <script src="../js/jquery-3.7.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>

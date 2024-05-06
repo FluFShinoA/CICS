@@ -4,23 +4,23 @@
         <meta charset="UTF-8">
         <title> Homepage </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include 'head_components.php'; ?>
+        <?php include 'php/head_components.php'; ?>
 
-        <link rel="stylesheet" href="../css/homepage.css">
-        <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/homepage.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
         
     </head>
 <body>
     <!-- Sidebar Connection -->
-    <?php include 'sidebar.php'; ?>
+    <?php include 'php/sidebar.php'; ?>
 
     <main>
-        <?php include 'header.php' ?>
+        <?php include 'php/header.php' ?>
         <!-- Front Content of CICS Website -->
         <section class="col-12 container-fluid cics-front-content" id="front-section">
             <div class="row">
                 <div class="NEU-campus col-md-7">
-                    <img src="../img/pin.png" alt="New Era Campus">
+                    <img src="img/pin.png" alt="New Era Campus">
                 </div>
                 <div class="col-md-5 quote text-center">
                     <p>Embrace the future of <br><span> TECHNOLOGY</span>,<br> Embrace <span> CICS</span></p>
@@ -43,7 +43,7 @@
                     
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img">
-                            <img src="../img/announcement-3.jpg" alt="">
+                            <img src="img/announcement-3.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
@@ -61,7 +61,7 @@
     
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img">
-                            <img src="../img/announcement-2.jpg" alt="">
+                            <img src="img/announcement-2.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
@@ -80,7 +80,7 @@
                     <div class="blog-slider__item swiper-slide">
     
                         <div class="blog-slider__img">
-                            <img src="../img/announcement-1.jpg" alt="">
+                            <img src="img/announcement-1.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
@@ -125,7 +125,7 @@
                         </a>
                     </div>
                     <div class="article-img">
-                        <img src="../img/read2.jpg" alt="Article 1 Image Cover">
+                        <img src="img/read2.jpg" alt="Article 1 Image Cover">
                     </div>
                 </div>
                 
@@ -277,14 +277,36 @@
         </section>
 
         <!-- Footer of CICS Website -->
-        <?php include 'footer.php' ?>
+        <?php include 'php/footer.php' ?>
     </main>
-    
-    <script src="../js/script.js"></script>
-    <script src="../js/jquery-3.7.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/swiper-bundle.min.js"></script>
-    <script src="../aos-master/dist/aos.js"></script>
+    <script>
+        !(function () {
+            let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+                window.WebChat.default(
+                {
+                    title: 'CICSpert',
+                    initPayload: '/greet',
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                    // add other props here
+                },
+                null
+                );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
