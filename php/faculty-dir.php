@@ -51,7 +51,7 @@
 
                         <!-- Team Details-->
                         <div class="single_advisor_details_info">
-                            <h6>Prof. Audrey Lyly DM. Diego</h6>
+                            <h6>Prof. Audrey Lyle DM. Diego</h6>
                             <p class="designation">CICS Dean</p>
                         </div>
                     </div>
