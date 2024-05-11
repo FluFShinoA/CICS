@@ -23,7 +23,7 @@
             <div class="program-title">
                 <div class="program-text">
                     <strong>
-                        BSCS
+                        BLIS
                     </strong>
                     <p>Bachelor in Library and Information Science</p>
                     <i>"Guardians of knowledge in the digital age."</i>
@@ -315,19 +315,19 @@
             <div class="bsit-testimonials">
                 <div class="owl-carousel owl-carousel1 owl-theme">
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni1.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Ronne Galle<br />
+                            <h5>Myrick Catacutan<br />
                             <span> Systems Administrator </span>
                             </h5>
-                            <p class="card-text">“ My BSIT degree from New Era University was the launching pad for my career in tech. The curriculum was rigorous and relevant, preparing me with the essential skills and knowledge to hit the ground running. ” </p>
+                            <p class="card-text">“ My college years as a CICS student from New Era University was the launching pad for my career in tech. The curriculum was rigorous and relevant, preparing me with the essential skills and knowledge to hit the ground running. ” </p>
                         </div>
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni2.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Missy Limana<br />
+                            <h5>Riley Simeon<br />
                             <span> QA Specialist </span>
                             </h5>
                             <p class="card-text">“ Entering the BSIT program at New Era University was one of the best decisions I ever made. The program provided me with a comprehensive understanding of IT systems, project management, and leadership skills. ” </p>
@@ -335,9 +335,9 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni3.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Martha Brown<br />
+                            <h5>Allen Sison<br />
                             <span> Computer Porgrammer </span>
                             </h5>
                             <p class="card-text">“ I went from coding newbie to freelance web developer thanks to the comprehensive curriculum at New Era University. The small class sizes and personalized attention gave me the boost I needed. ” </p>
@@ -345,9 +345,9 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="../img/alumni4.jpg" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="../img/male-silhouette.png" alt="">
                         <div class="card-body">
-                            <h5>Hanna Lisem<br />
+                            <h5>Karl Tolarba<br />
                             <span> Web Developer </span>
                             </h5>
                             <p class="card-text">“ The BSIT program not only honed my technical skills but also developed my leadership and communication abilities. Working in teams on real-world projects prepared me for the challenges of managing IT projects. ” </p>

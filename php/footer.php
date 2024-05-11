@@ -14,16 +14,13 @@
         <div class="col-md-3 col-12">
             <div class="row cics-vmgo">
                 <div class="col-12">
-                    <b>BASIC FACTS</b>
+                    <a href="about.php"><strong>Vision</strong></a>
                 </div>
                 <div class="col-12">
-                    <a href="about.php">CICS Vision</a>
+                    <a href="about.php"><strong>Mission</strong></a>
                 </div>
                 <div class="col-12">
-                    <a href="about.php">CICS Mission</a>
-                </div>
-                <div class="col-12">
-                    <a href="about.php">CICS Goals</a>
+                    <a href="about.php"><strong>Goals</strong></a>
                 </div>
             </div>
         </div>

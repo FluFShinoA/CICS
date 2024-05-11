@@ -97,7 +97,7 @@
             
             <div class="row bottom-profiles">
                 <!-- Single Advisor-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6 col-lg-3" >
                     <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 
                         <!-- Team Thumb-->
@@ -254,7 +254,7 @@
                         <!-- Team Details-->
                         <div class="single_advisor_details_info">
                             <h6>Prof. Joyce Ann Z. Cleofe</h6>
-                            <p class="designation">Faculty 5</p>
+                            <p class="designation">Faculty</p>
                         </div>
                     </div>
                 </div>

@@ -438,7 +438,7 @@
 .recommend-read .article-img img{
 	width: 450px;
 	aspect-ratio: 2 / 1.5;
-	border-radius: 20px;
+	border-radius: 5px;
     border: 1px solid #abcdff5a;
     box-shadow: rgba(0, 0, 0, 0.37) 0px 5px 15px 0px;
 }

@@ -15,12 +15,12 @@
     <?php include 'sidebar.php'; ?>
 
     <main>
-        <?php include 'php/header.php' ?>
+        <?php include 'header.php' ?>
         <!-- Front Content of CICS Website -->
         <section class="col-12 container-fluid cics-front-content" id="front-section">
             <div class="row">
                 <div class="NEU-campus col-md-7">
-                    <img src="img/pin.png" alt="New Era Campus">
+                    <img src="../img/pin.png" alt="New Era Campus">
                 </div>
                 <div class="col-md-5 quote text-center">
                     <p>Embrace the future of <br><span> TECHNOLOGY</span>,<br> Embrace <span> CICS</span></p>
@@ -43,7 +43,7 @@
                     
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img">
-                            <img src="img/announcement-3.jpg" alt="">
+                            <img src="../img/announcement-3.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
@@ -61,38 +61,38 @@
     
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img">
-                            <img src="img/announcement-2.jpg" alt="">
+                            <img src="../img/announcement-5.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
-                            <span class="blog-slider__code">21 October 2023</span>
+                            <span class="blog-slider__code">06 May 2024</span>
     
-                            <div class="blog-slider__title">NEU Team wins DICT Cyber Challenge 2023</div>
+                            <div class="blog-slider__title">HackForGov3: New Era University's Team UniteGG Wins NCR Championship</div>
     
                             <div class="blog-slider__text">
-                                NEU College of Informatics and Computing Studies (CICS) was declared NCR Champion in the recently conducted HackForGov...
+                                Showcasing exceptional skill, innovation, and teamwork, New Era University's Team UnitGG emerged as the Champion...
                             </div>
     
-                            <a href="https://neu.edu.ph/main/index.php/news/2023/04/2023_Technocrats" target="_blank" class="blog-slider__button">READ MORE</a>
+                            <a href="https://web.facebook.com/DICTgovph/posts/837896241708339?ref=embed_post" target="_blank" class="blog-slider__button">READ MORE</a>
                         </div>
                     </div>
     
                     <div class="blog-slider__item swiper-slide">
     
                         <div class="blog-slider__img">
-                            <img src="img/announcement-1.jpg" alt="">
+                            <img src="../img/announcement-4.jpg" alt="">
                         </div>
     
                         <div class="blog-slider__content">
-                            <span class="blog-slider__code">07 September 2023</span>
+                            <span class="blog-slider__code">20 April 2024</span>
     
-                            <div class="blog-slider__title">NEU CDROM Website Launch!</div>
+                            <div class="blog-slider__title">NEU Holds Cybersecurity Awareness Seminar</div>
     
                             <div class="blog-slider__text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? 
+                                NEU College of Informatics and Computing Studies (CICS) and College of Criminology (CCR) in collaboration... 
                             </div>
     
-                            <a href="https://www.cdrom.neu.edu.ph/" target="_blank" class="blog-slider__button">READ MORE</a>
+                            <a href="https://web.facebook.com/NEU.hudyat.online/posts/957407806393436?ref=embed_post" target="_blank" class="blog-slider__button">READ MORE</a>
                         </div>
                     </div>
                     
@@ -110,22 +110,22 @@
                 <div class="recommend-read" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
                     <div class="article-info">
                         <div class="article-date">
-                            01 Jan, 2024
+                            14 March, 2024
                         </div>
                         <div class="article-title">
                             GPU Killer? Ryzen 8000G Aims for Gamers & Creators
                         </div>
                         <div class="article-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique atque quis necessitatibus, voluptate adipisci voluptas distinctio quo odit maiores, velit alias dolore, temporibus perferendis perspiciatis voluptatum consectetur excepturi ullam minima impedit accusantium at id sequi numquam officia? Deleniti temporibus fugiat fuga debitis.
+                            Launched in January 2024, the AMD Ryzen 8000G series processors offer a compelling solution for PC builders seeking a powerful all-in-one chip. Built on the Zen 4 architecture, these processors boast up to 8 cores and 16 threads, tackling demanding tasks like gaming and content creation with ease.
                         </div>
-                        <a href="">
+                        <a href="readings-1.php">
                             <button>
                                 Read More
                             </button>
                         </a>
                     </div>
                     <div class="article-img">
-                        <img src="img/read2.jpg" alt="Article 1 Image Cover">
+                        <img src="../img/read2.jpg" alt="Article 1 Image Cover">
                     </div>
                 </div>
                 
@@ -134,11 +134,11 @@
                         <div class="card card-blog">
                             <div class="card-image card-1"></div>
                             <div class="title">
-                                <a href="">
+                                <a href="readings-2.php">
                                     <h6 class="title-name">Get Ready to Level Up: Android 15 Preview Arrives</h6>
                                 </a>
                                 <div class="card-date">
-                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                    <p><i class="fa-duotone fa-calendar"></i> 16 Feb, 2024</p>
                                 </div>
                             </div>
                         </div>
@@ -147,11 +147,11 @@
                         <div class="card card-blog">
                             <div class="card-image card-2"></div>
                             <div class="title">
-                                <a href="">
+                                <a href="readings-3.php">
                                     <h6 class="title-name">Grok Gets Brainy: Coding & Math Skills Power Up</h6>
                                 </a>
                                 <div class="card-date">
-                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                    <p><i class="fa-duotone fa-calendar"></i> 28 March, 2024</p>
                                 </div>
                             </div>
                         </div>
@@ -160,11 +160,11 @@
                         <div class="card card-blog">
                             <div class="card-image card-3"></div>
                             <div class="title">
-                                <a href="">
+                                <a href="readings-4.php">
                                     <h6 class="title-name">AR Revolution in Health: Apple Vision Pro Opens Doors</h6>
                                 </a>
                                 <div class="card-date">
-                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                    <p><i class="fa-duotone fa-calendar"></i> 11 March, 2024</p>
                                 </div>
                             </div>
                         </div>
@@ -173,11 +173,11 @@
                         <div class="card card-blog">
                             <div class="card-image card-4"></div>
                             <div class="title">
-                                <a href="">
+                                <a href="readings-5.php">
                                     <h6 class="title-name">Coding Comrade: Meet Devin, the World's First AI Developer</h6>
                                 </a>
                                 <div class="card-date">
-                                    <p><i class="fa-duotone fa-calendar"></i> 01 Jan, 2024</p>
+                                    <p><i class="fa-duotone fa-calendar"></i> 12 March, 2024</p>
                                 </div>
                             </div>
                         </div>
@@ -192,36 +192,36 @@
                 <div class="row container-fluid">
                     <div class="col-md-6 col-12 event-cont">
                         <h1 class="upcoming-title" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
-                            <i class='bx bx-calendar'></i> UPCOMING <br> EVENTS
+                            <i class='bx bx-calendar'></i> EVENTS
                         </h1>
                     </div>
                     <div class="col-md-6 col-12 event-list" >
                         <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="100" data-aos-once="true">
                             <div class="date">
-                                <span class="month">JAN</span> 
-                                <span class="day">15</span>
+                                <span class="month">APR</span> 
+                                <span class="day">30</span>
                             </div>
                             
                             <div class="event-description">
-                                <a href="#" class="event-title">Get ready for another semester of exciting learning and exploration</a>
+                                <a href="event-1.php" class="event-title">Seminar: Data Prevention Act / Cybercrime Prevention</a>
 
                                 <span class="event-location">
-                                    <i>Location: NEU Hall</i>
+                                    <i>Location: PSB Room 201</i>
                                 </span>
                             </div>
                         </div>
 
                         <div class="event"data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-once="true">
                             <div class="date">
-                                <span class="month">FEB</span> 
-                                <span class="day">14</span>
+                                <span class="month">APR</span> 
+                                <span class="day">30</span>
                             </div>
 
                             <div class="event-description">
-                                <a href="#"  class="event-title">Data Science Workshop: From Beginner to Expert</a>
+                                <a href="event-2.php"  class="event-title">Seminar: Security Operations Center</a>
 
                                 <span class="event-location">
-                                    <i>Location: NEU Hall</i>
+                                    <i>Location: PSB Room 201</i>
                                 </span>
                             </div>
                             
@@ -229,30 +229,30 @@
 
                         <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-once="true">
                             <div class="date">
-                                <span class="month">MAR</span> 
-                                <span class="day">23</span>
+                                <span class="month">APR</span> 
+                                <span class="day">30</span>
                             </div>
 
                             <div class="event-description">
-                                <a href="#"  class="event-title">Industry Talk: The Future of Artificial Intelligence</a>
+                                <a href="event-3.php"  class="event-title">Seminar: Data Science</a>
 
                                 <span class="event-location">
-                                    <i>Location: PSB Multipurpose Hall</i>
+                                    <i>Location: PSB Room 201</i>
                                 </span>
                             </div>
                         </div>
 
                         <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="250" data-aos-once="true">
                             <div class="date">
-                                <span class="month">APR</span> 
-                                <span class="day">14</span>
+                                <span class="month">MAY</span> 
+                                <span class="day">02</span>
                             </div>
 
                             <div class="event-description">
-                                <a href="#"  class="event-title">Game Development Jam: Create Your Dream Game</a>
+                                <a href="event-4.php"  class="event-title">Seminar: Microsoft Power Platform</a>
 
                                 <span class="event-location">
-                                    <i>Location: NEU Hall</i>
+                                    <i>Location: PSB Room 201</i>
                                 </span>
                             </div>
                         </div>
@@ -260,14 +260,14 @@
                         <div class="event" data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-once="true">
                             <div class="date">
                                 <span class="month">MAY</span> 
-                                <span class="day">1-15</span>
+                                <span class="day">03</span>
                             </div>
 
                             <div class="event-description">
-                                <a href="#"  class="event-title">Final Examinations</a>
+                                <a href="event-5.php"  class="event-title">Seminar: Importance of UI/UX in Software Applications</a>
 
                                 <span class="event-location">
-                                    <i>Location: SOM Multipurpose Hall</i>
+                                    <i>Location: PSB Room 201</i>
                                 </span>
                             </div>
                         </div>
@@ -302,11 +302,11 @@
             t.insertBefore(e, t.firstChild);
         })();
     </script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="aos-master/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../aos-master/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>

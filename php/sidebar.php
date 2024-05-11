@@ -12,7 +12,7 @@
                     <span class="link_name">Home</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Home</a></li>
+                    <li><a class="link_name" href="index.php">Home</a></li>
                 </ul>
             </li>
 
@@ -22,7 +22,7 @@
                     <span class="link_name">About</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">About Us</a></li>
+                    <li><a class="link_name" href="about.php">About Us</a></li>
                 </ul>
             </li>
             <li>
@@ -48,35 +48,29 @@
                     <span class="link_name">Admission</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Admission</a></li>
+                    <li><a class="link_name" href="admission.php">Admission</a></li>
                 </ul>
             </li>
             <li>
                 <div class="icon-link">
-                    <a href="#">
+                    <a href="faculty-dir.php">
                         <i class="fa-regular fa-screen-users" id="icons"></i>
                         <span class="link_name">Faculty</span>
                     </a>
-                    <i class='bx bxs-chevron-down arrow' ></i>
                 </div>
-                <ul class="sub-menu categories">
-                    <li><a class="link_name" href="#">Faculty</a></li>
-                    <li><a href="faculty-dir.php">Faculty Directory</a></li>
-                    <li><a href="#">Laboratories</a></li>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="faculty-dir.php">Faculty</a></li>
                 </ul>
             </li>
             <li>
                 <div class="icon-link">
-                    <a href="#">
+                    <a href="internship.php">
                         <i class="fa-regular fa-handshake" id="icons"></i>
-                        <span class="link_name">Engagement</span>
+                        <span class="link_name">Internship</span>
                     </a>
-                    <i class='bx bxs-chevron-down arrow' ></i>
                 </div>
-                <ul class="sub-menu categories">
-                    <li><a class="link_name" href="#">Engagement</a></li>
-                    <li><a href="internship.php">Internship</a></li>
-                    <li><a href="#">Student Organization</a></li>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="internship.php">Internship</a></li>
                 </ul>
             </li>
             <div class="sidebar-toggle">
